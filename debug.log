@@ -1,0 +1,1177 @@
+Not Found: /
+"GET / HTTP/1.1" 404 2479
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2530
+Not Found: /
+"GET / HTTP/1.1" 404 2479
+Not Found: /
+"GET / HTTP/1.1" 404 2482
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2533
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 110
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Not Found: /
+"GET / HTTP/1.1" 404 2482
+Not Found: /
+"GET / HTTP/1.1" 404 2482
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 86
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2534
+Not Found: /
+"GET / HTTP/1.1" 404 2479
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2530
+Not Found: /
+"GET / HTTP/1.1" 404 2479
+Not Found: /
+"GET / HTTP/1.1" 404 2483
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2534
+Not Found: /
+"GET / HTTP/1.1" 404 2483
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2534
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Not Found: /
+"GET / HTTP/1.1" 404 2483
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Not Found: /api/user/profile/
+"GET /api/user/profile/ HTTP/1.1" 404 4571
+Unauthorized: /api/user/profile/
+"GET /api/user/profile/ HTTP/1.1" 401 58
+Not Found: /api/patients/1/
+"DELETE /api/patients/1/ HTTP/1.1" 404 48
+Not Found: /api/patients/1/
+"DELETE /api/patients/1/ HTTP/1.1" 404 48
+Not Found: /api/patients/1/
+"PUT /api/patients/1/ HTTP/1.1" 404 48
+Not Found: /api/patients/1/
+"PUT /api/patients/1/ HTTP/1.1" 404 48
+Not Found: /api/patients/1/
+"DELETE /api/patients/1/ HTTP/1.1" 404 48
+Not Found: /api/patients/1/
+"PUT /api/patients/1/ HTTP/1.1" 404 48
+Not Found: /api/patients/1/
+"PUT /api/patients/1/ HTTP/1.1" 404 48
+Not Found: /api/patients/1/
+"PUT /api/patients/1/ HTTP/1.1" 404 48
+Not Found: /api/patients/1/
+"PUT /api/patients/1/ HTTP/1.1" 404 48
+Not Found: /api/patients/1/
+"PUT /api/patients/1/ HTTP/1.1" 404 48
+Not Found: /api/patients/1/
+"PUT /api/patients/1/ HTTP/1.1" 404 48
+Not Found: /api/patients/1/
+"PUT /api/patients/1/ HTTP/1.1" 404 48
+Not Found: /api/patients/1/
+"PUT /api/patients/1/ HTTP/1.1" 404 48
+Not Found: /api/patients/1/
+"PUT /api/patients/1/ HTTP/1.1" 404 48
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Not Found: /api/patients/12/
+"PUT /api/patients/12/ HTTP/1.1" 404 48
+Not Found: /api/patients/12/
+"PUT /api/patients/12/ HTTP/1.1" 404 48
+Not Found: /api/patients/12/
+"PUT /api/patients/12/ HTTP/1.1" 404 48
+Not Found: /api/patients/12/
+"PUT /api/patients/12/ HTTP/1.1" 404 48
+Not Found: /api/patients/12/
+"PUT /api/patients/12/ HTTP/1.1" 404 48
+Not Found: /api/patients/12/
+"DELETE /api/patients/12/ HTTP/1.1" 404 48
+Not Found: /api/patients/12/
+"PUT /api/patients/12/ HTTP/1.1" 404 48
+Not Found: /api/patients/12/
+"DELETE /api/patients/12/ HTTP/1.1" 404 48
+Not Found: /api/patients/12/
+"DELETE /api/patients/12/ HTTP/1.1" 404 48
+Not Found: /api/patients/1/
+"DELETE /api/patients/1/ HTTP/1.1" 404 48
+Not Found: /api/patients/12/
+"DELETE /api/patients/12/ HTTP/1.1" 404 48
+Not Found: /api/patients/12/
+"DELETE /api/patients/12/ HTTP/1.1" 404 48
+Not Found: /api/patients/12/
+"PUT /api/patients/12/ HTTP/1.1" 404 48
+Not Found: /api/patients/12/
+"PUT /api/patients/12/ HTTP/1.1" 404 48
+Not Found: /api/patients/8/
+"DELETE /api/patients/8/ HTTP/1.1" 404 48
+Not Found: /api/patients/12/
+"PUT /api/patients/12/ HTTP/1.1" 404 48
+Bad Request: /api/register/
+"POST /api/register/ HTTP/1.1" 400 50
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 110
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 110
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 110
+Not Found: /api/patients/19/
+"PUT /api/patients/19/ HTTP/1.1" 404 48
+Not Found: /api/patients/18/
+"DELETE /api/patients/18/ HTTP/1.1" 404 48
+Not Found: /api/patients/18/
+"DELETE /api/patients/18/ HTTP/1.1" 404 48
+Not Found: /api/patients/17/
+"PUT /api/patients/17/ HTTP/1.1" 404 48
+Not Found: /api/patients/17/
+"DELETE /api/patients/17/ HTTP/1.1" 404 48
+Not Found: /api/patients/18/
+"DELETE /api/patients/18/ HTTP/1.1" 404 48
+Not Found: /api/patients/18/
+"DELETE /api/patients/18/ HTTP/1.1" 404 48
+Not Found: /api/patients/18/
+"DELETE /api/patients/18/ HTTP/1.1" 404 48
+Not Found: /api/patients/18/
+"DELETE /api/patients/18/ HTTP/1.1" 404 48
+Not Found: /api/patients/17/
+"DELETE /api/patients/17/ HTTP/1.1" 404 48
+Not Found: /api/patients/19/
+"PUT /api/patients/19/ HTTP/1.1" 404 48
+Not Found: /api/patients/19/
+"PUT /api/patients/19/ HTTP/1.1" 404 48
+Not Found: /api/patients/19/
+"PUT /api/patients/19/ HTTP/1.1" 404 48
+Not Found: /api/patients/19/
+"PUT /api/patients/19/ HTTP/1.1" 404 48
+Not Found: /api/patients/19/
+"PUT /api/patients/19/ HTTP/1.1" 404 48
+Not Found: /api/patients/2/
+"DELETE /api/patients/2/ HTTP/1.1" 404 48
+Not Found: /api/patients/5/
+"DELETE /api/patients/5/ HTTP/1.1" 404 48
+Not Found: /api/patients/6/
+"DELETE /api/patients/6/ HTTP/1.1" 404 48
+Not Found: /api/patients/7/
+"DELETE /api/patients/7/ HTTP/1.1" 404 48
+Not Found: /api/patients/8/
+"DELETE /api/patients/8/ HTTP/1.1" 404 48
+Not Found: /api/patients/9/
+"DELETE /api/patients/9/ HTTP/1.1" 404 48
+Not Found: /api/patients/10/
+"DELETE /api/patients/10/ HTTP/1.1" 404 48
+Not Found: /api/patients/11/
+"DELETE /api/patients/11/ HTTP/1.1" 404 48
+Not Found: /api/patients/12/
+"DELETE /api/patients/12/ HTTP/1.1" 404 48
+Not Found: /api/patients/4/
+"DELETE /api/patients/4/ HTTP/1.1" 404 48
+Not Found: /api/patients/3/
+"DELETE /api/patients/3/ HTTP/1.1" 404 48
+Not Found: /api/patients/1/
+"DELETE /api/patients/1/ HTTP/1.1" 404 48
+Not Found: /api/patients/16/
+"DELETE /api/patients/16/ HTTP/1.1" 404 48
+Not Found: /api/patients/19/
+"DELETE /api/patients/19/ HTTP/1.1" 404 48
+Not Found: /api/patients/20/
+"PUT /api/patients/20/ HTTP/1.1" 404 48
+Not Found: /api/patients/20/
+"PUT /api/patients/20/ HTTP/1.1" 404 48
+Not Found: /api/patients/22/
+"DELETE /api/patients/22/ HTTP/1.1" 404 48
+Not Found: /api/patients/21/
+"DELETE /api/patients/21/ HTTP/1.1" 404 48
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 110
+Not Found: /api/auth/request-reset-password/
+"POST /api/auth/request-reset-password/ HTTP/1.1" 404 5163
+Not Found: /api/auth/request-reset-password/
+"POST /api/auth/request-reset-password/ HTTP/1.1" 404 5163
+Not Found: /api/auth/request-reset-password/
+"POST /api/auth/request-reset-password/ HTTP/1.1" 404 5163
+Not Found: /api/auth/request-reset-password/
+"POST /api/auth/request-reset-password/ HTTP/1.1" 404 5163
+Not Found: /api/auth/request-reset-password/
+"POST /api/auth/request-reset-password/ HTTP/1.1" 404 5163
+Not Found: /api/auth/request-reset-password/
+"POST /api/auth/request-reset-password/ HTTP/1.1" 404 5163
+Not Found: /api/verify-reset-code/
+"POST /api/verify-reset-code/ HTTP/1.1" 404 5133
+Not Found: /api/verify-reset-code/
+"POST /api/verify-reset-code/ HTTP/1.1" 404 5133
+Not Found: /api/verify-reset-code/
+"POST /api/verify-reset-code/ HTTP/1.1" 404 5133
+Not Found: /api/verify-reset-code/
+"POST /api/verify-reset-code/ HTTP/1.1" 404 5133
+Not Found: /api/verify-reset-code/
+"POST /api/verify-reset-code/ HTTP/1.1" 404 5133
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 110
+Not Found: /
+"GET / HTTP/1.1" 404 2483
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2534
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Not Found: /
+"GET / HTTP/1.1" 404 2483
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2534
+Not Found: /api/patients/26/
+"DELETE /api/patients/26/ HTTP/1.1" 404 48
+Not Found: /api/patients/25/
+"DELETE /api/patients/25/ HTTP/1.1" 404 48
+Not Found: /api/patients/25/
+"DELETE /api/patients/25/ HTTP/1.1" 404 48
+Not Found: /api/patients/25/
+"PUT /api/patients/25/ HTTP/1.1" 404 48
+Not Found: /api/patients/32/
+"DELETE /api/patients/32/ HTTP/1.1" 404 48
+Not Found: /api/patients/32/
+"PUT /api/patients/32/ HTTP/1.1" 404 48
+Not Found: /api/patients/25/
+"PUT /api/patients/25/ HTTP/1.1" 404 48
+Not Found: /api/patients/32/
+"PUT /api/patients/32/ HTTP/1.1" 404 48
+Not Found: /api/patients/24/
+"DELETE /api/patients/24/ HTTP/1.1" 404 48
+Not Found: /api/patients/25/
+"DELETE /api/patients/25/ HTTP/1.1" 404 48
+Not Found: /api/patients/31/
+"DELETE /api/patients/31/ HTTP/1.1" 404 48
+Not Found: /api/patients/31/
+"DELETE /api/patients/31/ HTTP/1.1" 404 48
+Not Found: /api/patients/31/
+"DELETE /api/patients/31/ HTTP/1.1" 404 48
+Not Found: /api/patients/31/
+"DELETE /api/patients/31/ HTTP/1.1" 404 48
+Not Found: /api/patients/31/
+"DELETE /api/patients/31/ HTTP/1.1" 404 48
+Not Found: /api/patients/31/
+"DELETE /api/patients/31/ HTTP/1.1" 404 48
+Not Found: /api/patients/31/
+"DELETE /api/patients/31/ HTTP/1.1" 404 48
+Not Found: /api/patients/30/
+"DELETE /api/patients/30/ HTTP/1.1" 404 48
+Not Found: /api/patients/29/
+"DELETE /api/patients/29/ HTTP/1.1" 404 48
+Not Found: /api/patients/28/
+"DELETE /api/patients/28/ HTTP/1.1" 404 48
+Not Found: /api/patients/27/
+"DELETE /api/patients/27/ HTTP/1.1" 404 48
+Not Found: /api/patients/26/
+"DELETE /api/patients/26/ HTTP/1.1" 404 48
+Not Found: /api/patients/20/
+"PUT /api/patients/20/ HTTP/1.1" 404 48
+Not Found: /api/patients/20/
+"PUT /api/patients/20/ HTTP/1.1" 404 48
+Not Found: /api/patients/25/
+"DELETE /api/patients/25/ HTTP/1.1" 404 48
+Not Found: /api/patients/24/
+"PUT /api/patients/24/ HTTP/1.1" 404 48
+Not Found: /api/patients/32/
+"PUT /api/patients/32/ HTTP/1.1" 404 48
+Not Found: /api/patients/23/
+"DELETE /api/patients/23/ HTTP/1.1" 404 48
+Not Found: /api/patients/23/
+"DELETE /api/patients/23/ HTTP/1.1" 404 48
+Not Found: /api/patients/32/
+"PUT /api/patients/32/ HTTP/1.1" 404 48
+Not Found: /api/patients/32/
+"PUT /api/patients/32/ HTTP/1.1" 404 48
+Not Found: /api/patients/32/
+"PUT /api/patients/32/ HTTP/1.1" 404 48
+Not Found: /api/patients/24/
+"DELETE /api/patients/24/ HTTP/1.1" 404 48
+Not Found: /api/patients/24/
+"DELETE /api/patients/24/ HTTP/1.1" 404 48
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 110
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 83
+Bad Request: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 400 67
+Bad Request: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 400 67
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 81
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 81
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 81
+Not Found: /
+"GET / HTTP/1.1" 404 2483
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 42
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 42
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 42
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 42
+Bad Request: /api/register/
+"POST /api/register/ HTTP/1.1" 400 42
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 42
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 110
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 110
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 42
+Bad Request: /api/register/
+"POST /api/register/ HTTP/1.1" 400 42
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 42
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 42
+Bad Request: /api/register/
+"POST /api/register/ HTTP/1.1" 400 42
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 42
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 42
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 42
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 42
+Bad Request: /api/register/
+"POST /api/register/ HTTP/1.1" 400 42
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 42
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 42
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 42
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 110
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 110
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 110
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 110
+Bad Request: /api/register/
+"POST /api/register/ HTTP/1.1" 400 99
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 110
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 110
+Bad Request: /api/register/
+"POST /api/register/ HTTP/1.1" 400 112
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 89
+Bad Request: /api/register/
+"POST /api/register/ HTTP/1.1" 400 112
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 89
+Bad Request: /api/register/
+"POST /api/register/ HTTP/1.1" 400 112
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 89
+Login error: {'email': [ErrorDetail(string='لا يوجد حساب مسجل بهذا البريد الإلكتروني.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 89
+Bad Request: /api/register/
+"POST /api/register/ HTTP/1.1" 400 58
+Login error: {'email': [ErrorDetail(string='لا يوجد حساب مسجل بهذا البريد الإلكتروني.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 89
+Login error: {'email': [ErrorDetail(string='لا يوجد حساب مسجل بهذا البريد الإلكتروني.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 89
+Login error: {'email': [ErrorDetail(string='لا يوجد حساب مسجل بهذا البريد الإلكتروني.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 89
+Login error: {'email': [ErrorDetail(string='لا يوجد حساب مسجل بهذا البريد الإلكتروني.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 89
+Registration error: {'username': [ErrorDetail(string='Enter a valid username. This value may contain only letters, numbers, and @/./+/-/_ characters.', code='invalid')], 'password': [ErrorDetail(string='This password is too common.', code='password_too_common'), ErrorDetail(string='This password is entirely numeric.', code='password_entirely_numeric')], 'password2': [ErrorDetail(string='This field is required.', code='required')]}
+Bad Request: /api/register/
+"POST /api/register/ HTTP/1.1" 400 233
+Login error: {'email': [ErrorDetail(string='لا يوجد حساب مسجل بهذا البريد الإلكتروني.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 89
+Registration error: {'username': [ErrorDetail(string='Enter a valid username. This value may contain only letters, numbers, and @/./+/-/_ characters.', code='invalid')], 'password': [ErrorDetail(string='This password is too common.', code='password_too_common'), ErrorDetail(string='This password is entirely numeric.', code='password_entirely_numeric')], 'password2': [ErrorDetail(string='This field is required.', code='required')]}
+Bad Request: /api/register/
+"POST /api/register/ HTTP/1.1" 400 233
+Login error: {'email': [ErrorDetail(string='لا يوجد حساب مسجل بهذا البريد الإلكتروني.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 89
+حقول مطلوبة ناقصة: password2
+Bad Request: /api/register/
+"POST /api/register/ HTTP/1.1" 400 56
+Login error: {'email': [ErrorDetail(string='لا يوجد حساب مسجل بهذا البريد الإلكتروني.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 89
+Login error: {'email': [ErrorDetail(string='لا يوجد حساب مسجل بهذا البريد الإلكتروني.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 89
+حقول مطلوبة ناقصة: password2
+Bad Request: /api/register/
+"POST /api/register/ HTTP/1.1" 400 56
+حقول مطلوبة ناقصة: password2
+Bad Request: /api/register/
+"POST /api/register/ HTTP/1.1" 400 56
+Login error: {'email': [ErrorDetail(string='لا يوجد حساب مسجل بهذا البريد الإلكتروني.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 89
+Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 122, in post
+    refresh = RefreshToken.for_user(user)
+              ^^^^^^^^^^^^
+NameError: name 'RefreshToken' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 133, in post
+    except serializers.ValidationError as e:
+           ^^^^^^^^^^^
+NameError: name 'serializers' is not defined. Did you mean: 'serializer'?
+"POST /api/register/ HTTP/1.1" 500 110153
+Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 115, in post
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'password': [ErrorDetail(string='This password is too common.', code='password_too_common'), ErrorDetail(string='This password is entirely numeric.', code='password_entirely_numeric')]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 133, in post
+    except serializers.ValidationError as e:
+           ^^^^^^^^^^^
+NameError: name 'serializers' is not defined. Did you mean: 'serializer'?
+"POST /api/register/ HTTP/1.1" 500 116148
+Login error: {'email': [ErrorDetail(string='لا يوجد حساب مسجل بهذا البريد الإلكتروني.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 89
+Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 115, in post
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'password': [ErrorDetail(string='This password is too common.', code='password_too_common'), ErrorDetail(string='This password is entirely numeric.', code='password_entirely_numeric')]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 133, in post
+    except serializers.ValidationError as e:
+           ^^^^^^^^^^^
+NameError: name 'serializers' is not defined. Did you mean: 'serializer'?
+"POST /api/register/ HTTP/1.1" 500 116143
+Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 115, in post
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'username': [ErrorDetail(string='A user with that username already exists.', code='unique')], 'password': [ErrorDetail(string='This password is too common.', code='password_too_common'), ErrorDetail(string='This password is entirely numeric.', code='password_entirely_numeric')]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 133, in post
+    except serializers.ValidationError as e:
+           ^^^^^^^^^^^
+NameError: name 'serializers' is not defined. Did you mean: 'serializer'?
+"POST /api/register/ HTTP/1.1" 500 116366
+Login error: {'email': [ErrorDetail(string='لا يوجد حساب مسجل بهذا البريد الإلكتروني.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 89
+Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 122, in post
+    refresh = RefreshToken.for_user(user)
+              ^^^^^^^^^^^^
+NameError: name 'RefreshToken' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 133, in post
+    except serializers.ValidationError as e:
+           ^^^^^^^^^^^
+NameError: name 'serializers' is not defined. Did you mean: 'serializer'?
+"POST /api/register/ HTTP/1.1" 500 110209
+Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 115, in post
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'username': [ErrorDetail(string='Enter a valid username. This value may contain only letters, numbers, and @/./+/-/_ characters.', code='invalid')], 'email': [ErrorDetail(string='هذا البريد الإلكتروني مسجل مسبقًا.', code='unique')]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 133, in post
+    except serializers.ValidationError as e:
+           ^^^^^^^^^^^
+NameError: name 'serializers' is not defined. Did you mean: 'serializer'?
+"POST /api/register/ HTTP/1.1" 500 115981
+Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 115, in post
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'username': [ErrorDetail(string='Enter a valid username. This value may contain only letters, numbers, and @/./+/-/_ characters.', code='invalid')], 'email': [ErrorDetail(string='هذا البريد الإلكتروني مسجل مسبقًا.', code='unique')]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 133, in post
+    except serializers.ValidationError as e:
+           ^^^^^^^^^^^
+NameError: name 'serializers' is not defined. Did you mean: 'serializer'?
+"POST /api/register/ HTTP/1.1" 500 115971
+Login error: {'password': [ErrorDetail(string='كلمة المرور غير صحيحة.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 57
+Login error: {'password': [ErrorDetail(string='كلمة المرور غير صحيحة.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 57
+Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 115, in post
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'username': [ErrorDetail(string='Enter a valid username. This value may contain only letters, numbers, and @/./+/-/_ characters.', code='invalid')], 'password': [ErrorDetail(string='يجب أن تحتوي كلمة المرور على حرف صغير واحد على الأقل', code='invalid')], 'email': [ErrorDetail(string='هذا البريد الإلكتروني مسجل مسبقًا.', code='unique')]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 133, in post
+    except serializers.ValidationError as e:
+           ^^^^^^^^^^^
+NameError: name 'serializers' is not defined. Did you mean: 'serializer'?
+"POST /api/register/ HTTP/1.1" 500 116317
+Login error: {'password': [ErrorDetail(string='كلمة المرور غير صحيحة.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 57
+Login error: {'password': [ErrorDetail(string='كلمة المرور غير صحيحة.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 57
+Login error: {'password': [ErrorDetail(string='كلمة المرور غير صحيحة.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 57
+Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 122, in post
+    refresh = RefreshToken.for_user(user)
+              ^^^^^^^^^^^^
+NameError: name 'RefreshToken' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 133, in post
+    except serializers.ValidationError as e:
+           ^^^^^^^^^^^
+NameError: name 'serializers' is not defined. Did you mean: 'serializer'?
+"POST /api/register/ HTTP/1.1" 500 109977
+Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 115, in post
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'username': [ErrorDetail(string='A user with that username already exists.', code='unique')], 'email': [ErrorDetail(string='هذا البريد الإلكتروني مسجل مسبقًا.', code='unique')]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 133, in post
+    except serializers.ValidationError as e:
+           ^^^^^^^^^^^
+NameError: name 'serializers' is not defined. Did you mean: 'serializer'?
+"POST /api/register/ HTTP/1.1" 500 115987
+Not Found: /api/api/check-username/
+"GET /api/api/check-username/?username=ali HTTP/1.1" 404 5692
+Not Found: /api/api/check-email/
+"GET /api/api/check-email/?email=ali HTTP/1.1" 404 5680
+Not Found: /api/api/check-email/
+"GET /api/api/check-email/?email=alimohammed%40gmail.com HTTP/1.1" 404 5700
+Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 147, in post
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\serializers.py", line 233, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'username': [ErrorDetail(string='A user with that username already exists.', code='unique')], 'email': [ErrorDetail(string='هذا البريد الإلكتروني مسجل مسبقًا.', code='unique')]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 165, in post
+    except serializers.ValidationError as e:
+           ^^^^^^^^^^^
+NameError: name 'serializers' is not defined. Did you mean: 'serializer'?
+"POST /api/register/ HTTP/1.1" 500 115987
+Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 122, in post
+    refresh = RefreshToken.for_user(user)
+              ^^^^^^^^^^^^
+NameError: name 'RefreshToken' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 133, in post
+    except serializers.ValidationError as e:
+           ^^^^^^^^^^^
+NameError: name 'serializers' is not defined. Did you mean: 'serializer'?
+"POST /api/register/ HTTP/1.1" 500 110019
+Not Found: /api/patients/58/
+"DELETE /api/patients/58/ HTTP/1.1" 404 48
+Not Found: /api/patients/58/
+"DELETE /api/patients/58/ HTTP/1.1" 404 48
+Not Found: /api/patients/57/
+"DELETE /api/patients/57/ HTTP/1.1" 404 48
+Not Found: /api/patients/57/
+"DELETE /api/patients/57/ HTTP/1.1" 404 48
+Not Found: /api/patients/56/
+"DELETE /api/patients/56/ HTTP/1.1" 404 48
+Not Found: /api/patients/56/
+"DELETE /api/patients/56/ HTTP/1.1" 404 48
+Not Found: /api/patients/55/
+"DELETE /api/patients/55/ HTTP/1.1" 404 48
+Not Found: /api/patients/55/
+"DELETE /api/patients/55/ HTTP/1.1" 404 48
+Not Found: /api/patients/54/
+"DELETE /api/patients/54/ HTTP/1.1" 404 48
+Not Found: /api/patients/54/
+"DELETE /api/patients/54/ HTTP/1.1" 404 48
+Not Found: /api/patients/53/
+"DELETE /api/patients/53/ HTTP/1.1" 404 48
+Not Found: /api/patients/53/
+"DELETE /api/patients/53/ HTTP/1.1" 404 48
+Not Found: /api/patients/52/
+"DELETE /api/patients/52/ HTTP/1.1" 404 48
+Not Found: /api/patients/52/
+"DELETE /api/patients/52/ HTTP/1.1" 404 48
+Not Found: /api/patients/51/
+"DELETE /api/patients/51/ HTTP/1.1" 404 48
+Not Found: /api/patients/51/
+"DELETE /api/patients/51/ HTTP/1.1" 404 48
+Not Found: /api/patients/50/
+"DELETE /api/patients/50/ HTTP/1.1" 404 48
+Not Found: /api/patients/50/
+"DELETE /api/patients/50/ HTTP/1.1" 404 48
+Not Found: /api/patients/49/
+"DELETE /api/patients/49/ HTTP/1.1" 404 48
+Not Found: /api/patients/49/
+"DELETE /api/patients/49/ HTTP/1.1" 404 48
+Not Found: /api/patients/48/
+"DELETE /api/patients/48/ HTTP/1.1" 404 48
+Not Found: /api/patients/48/
+"DELETE /api/patients/48/ HTTP/1.1" 404 48
+Not Found: /api/patients/47/
+"DELETE /api/patients/47/ HTTP/1.1" 404 48
+Not Found: /api/patients/47/
+"DELETE /api/patients/47/ HTTP/1.1" 404 48
+Not Found: /api/patients/46/
+"DELETE /api/patients/46/ HTTP/1.1" 404 48
+Not Found: /api/patients/46/
+"DELETE /api/patients/46/ HTTP/1.1" 404 48
+Not Found: /api/patients/45/
+"DELETE /api/patients/45/ HTTP/1.1" 404 48
+Not Found: /api/patients/45/
+"DELETE /api/patients/45/ HTTP/1.1" 404 48
+Not Found: /api/patients/44/
+"DELETE /api/patients/44/ HTTP/1.1" 404 48
+Not Found: /api/patients/44/
+"DELETE /api/patients/44/ HTTP/1.1" 404 48
+Not Found: /api/patients/43/
+"DELETE /api/patients/43/ HTTP/1.1" 404 48
+Not Found: /api/patients/43/
+"DELETE /api/patients/43/ HTTP/1.1" 404 48
+Not Found: /api/patients/62/
+"DELETE /api/patients/62/ HTTP/1.1" 404 48
+Not Found: /api/patients/62/
+"DELETE /api/patients/62/ HTTP/1.1" 404 48
+Not Found: /api/patients/61/
+"DELETE /api/patients/61/ HTTP/1.1" 404 48
+Not Found: /api/patients/61/
+"DELETE /api/patients/61/ HTTP/1.1" 404 48
+Not Found: /api/patients/60/
+"DELETE /api/patients/60/ HTTP/1.1" 404 48
+Not Found: /api/patients/60/
+"DELETE /api/patients/60/ HTTP/1.1" 404 48
+Not Found: /api/patients/59/
+"DELETE /api/patients/59/ HTTP/1.1" 404 48
+Not Found: /api/patients/59/
+"DELETE /api/patients/59/ HTTP/1.1" 404 48
+Not Found: /api/patients/42/
+"DELETE /api/patients/42/ HTTP/1.1" 404 48
+Not Found: /api/patients/42/
+"DELETE /api/patients/42/ HTTP/1.1" 404 48
+Not Found: /api/patients/41/
+"DELETE /api/patients/41/ HTTP/1.1" 404 48
+Not Found: /api/patients/41/
+"DELETE /api/patients/41/ HTTP/1.1" 404 48
+Not Found: /api/patients/40/
+"DELETE /api/patients/40/ HTTP/1.1" 404 48
+Not Found: /api/patients/40/
+"DELETE /api/patients/40/ HTTP/1.1" 404 48
+Not Found: /api/patients/39/
+"DELETE /api/patients/39/ HTTP/1.1" 404 48
+Not Found: /api/patients/39/
+"DELETE /api/patients/39/ HTTP/1.1" 404 48
+Not Found: /api/patients/38/
+"DELETE /api/patients/38/ HTTP/1.1" 404 48
+Not Found: /api/patients/38/
+"DELETE /api/patients/38/ HTTP/1.1" 404 48
+Not Found: /api/patients/37/
+"DELETE /api/patients/37/ HTTP/1.1" 404 48
+Not Found: /api/patients/37/
+"DELETE /api/patients/37/ HTTP/1.1" 404 48
+Not Found: /api/patients/36/
+"DELETE /api/patients/36/ HTTP/1.1" 404 48
+Not Found: /api/patients/36/
+"DELETE /api/patients/36/ HTTP/1.1" 404 48
+Not Found: /api/patients/35/
+"DELETE /api/patients/35/ HTTP/1.1" 404 48
+Not Found: /api/patients/35/
+"DELETE /api/patients/35/ HTTP/1.1" 404 48
+Not Found: /api/patients/34/
+"DELETE /api/patients/34/ HTTP/1.1" 404 48
+Not Found: /api/patients/34/
+"DELETE /api/patients/34/ HTTP/1.1" 404 48
+Not Found: /api/patients/33/
+"DELETE /api/patients/33/ HTTP/1.1" 404 48
+Not Found: /api/patients/33/
+"DELETE /api/patients/33/ HTTP/1.1" 404 48
+Not Found: /api/patients/32/
+"DELETE /api/patients/32/ HTTP/1.1" 404 48
+Not Found: /api/patients/32/
+"DELETE /api/patients/32/ HTTP/1.1" 404 48
+Not Found: /api/patients/20/
+"DELETE /api/patients/20/ HTTP/1.1" 404 48
+Not Found: /api/patients/20/
+"DELETE /api/patients/20/ HTTP/1.1" 404 48
+Not Found: /api/patients/66/
+"DELETE /api/patients/66/ HTTP/1.1" 404 48
+Not Found: /api/patients/66/
+"DELETE /api/patients/66/ HTTP/1.1" 404 48
+Not Found: /api/patients/65/
+"DELETE /api/patients/65/ HTTP/1.1" 404 48
+Not Found: /api/patients/65/
+"DELETE /api/patients/65/ HTTP/1.1" 404 48
+Not Found: /api/patients/64/
+"DELETE /api/patients/64/ HTTP/1.1" 404 48
+Not Found: /api/patients/64/
+"DELETE /api/patients/64/ HTTP/1.1" 404 48
+Not Found: /api/patients/63/
+"DELETE /api/patients/63/ HTTP/1.1" 404 48
+Not Found: /api/patients/63/
+"DELETE /api/patients/63/ HTTP/1.1" 404 48
+Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 122, in post
+    refresh = RefreshToken.for_user(user)
+              ^^^^^^^^^^^^
+NameError: name 'RefreshToken' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 133, in post
+    except serializers.ValidationError as e:
+           ^^^^^^^^^^^
+NameError: name 'serializers' is not defined. Did you mean: 'serializer'?
+"POST /api/register/ HTTP/1.1" 500 110149
+Login error: {'password': [ErrorDetail(string='كلمة المرور غير صحيحة.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 57
+Login error: {'password': [ErrorDetail(string='كلمة المرور غير صحيحة.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 57
+Not Found: /api/send-reset-code/
+"POST /api/send-reset-code/ HTTP/1.1" 404 62
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 81
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 81
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 81
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 81
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 81
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 81
+Not Found: /api/patients/71/
+"PUT /api/patients/71/ HTTP/1.1" 404 48
+Not Found: /api/patients/74/
+"DELETE /api/patients/74/ HTTP/1.1" 404 48
+Not Found: /api/patients/74/
+"DELETE /api/patients/74/ HTTP/1.1" 404 48
+Login error: {'email': [ErrorDetail(string='لا يوجد حساب مسجل بهذا البريد الإلكتروني.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 89
+Login error: {'email': [ErrorDetail(string='لا يوجد حساب مسجل بهذا البريد الإلكتروني.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 89
+Not Found: /api/patients/
+"GET /api/patients/ HTTP/1.1" 404 5105
+Not Found: /api/patients/
+"GET /api/patients/ HTTP/1.1" 404 5105
+Not Found: /api/patients/
+"GET /api/patients/ HTTP/1.1" 404 5105
+Not Found: /api/patients/
+"GET /api/patients/ HTTP/1.1" 404 5105
+Not Found: /api/patients/
+"GET /api/patients/ HTTP/1.1" 404 5105
+Not Found: /api/patients/26/
+"DELETE /api/patients/26/ HTTP/1.1" 404 48
+Not Found: /api/patients/26/
+"DELETE /api/patients/26/ HTTP/1.1" 404 48
+Not Found: /api/patients/29/
+"DELETE /api/patients/29/ HTTP/1.1" 404 48
+Not Found: /api/patients/29/
+"DELETE /api/patients/29/ HTTP/1.1" 404 48
+Not Found: /api/patients/28/
+"DELETE /api/patients/28/ HTTP/1.1" 404 48
+Not Found: /api/patients/28/
+"DELETE /api/patients/28/ HTTP/1.1" 404 48
+Not Found: /api/patients/27/
+"DELETE /api/patients/27/ HTTP/1.1" 404 48
+Not Found: /api/patients/27/
+"DELETE /api/patients/27/ HTTP/1.1" 404 48
+Not Found: /api/patients/
+"GET /api/patients/ HTTP/1.1" 404 5105
+Not Found: /api/patients/
+"GET /api/patients/ HTTP/1.1" 404 5105
+Not Found: /
+"GET / HTTP/1.1" 404 2483
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2534
