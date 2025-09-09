@@ -108,7 +108,7 @@ WSGI_APPLICATION = "iris_backend.wsgi.application"
 
 if not DEBUG:
     DATABASES = {
-        'default': dj_databse_url.config(default=os.environ.get("DATABASE_URL"))
+        'default': dj_database_url.config(default=os.environ.get("DATABASE_URL"))
     }
 else:
     DATABASES = {
