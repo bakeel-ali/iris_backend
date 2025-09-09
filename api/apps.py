@@ -16,6 +16,9 @@ class ApiConfig(AppConfig):
     # تحميل خط الأنابيب بأكمله ككائن واحد
     from .ai_models.diagnosis_pipeline import DiagnosisPipeline
     DIAGNOSIS_PIPELINE = DiagnosisPipeline(segmenter_path, classifier_path, class_labels)
+    #دالة الحذف عند حذف التشخيص
+    def ready(self):
+        import api.signals
 
 # from django.apps import AppConfig
 # from django.conf import settings

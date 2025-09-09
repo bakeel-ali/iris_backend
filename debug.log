@@ -1175,3 +1175,248 @@ Not Found: /
 "GET / HTTP/1.1" 404 2483
 Not Found: /favicon.ico
 "GET /favicon.ico HTTP/1.1" 404 2534
+Not Found: /api/patients/
+"GET /api/patients/ HTTP/1.1" 404 5105
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 51
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 51
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 51
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 51
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 51
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 51
+Not Found: /
+"GET / HTTP/1.1" 404 2483
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 51
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 51
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 51
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 51
+Not Found: /api/patients/31/
+"DELETE /api/patients/31/ HTTP/1.1" 404 48
+Not Found: /api/patients/31/
+"DELETE /api/patients/31/ HTTP/1.1" 404 48
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 51
+Not Found: /
+"GET / HTTP/1.1" 404 2483
+Internal Server Error: /api/diagnose/
+"POST /api/diagnose/ HTTP/1.1" 500 51
+Not Found: /api/patients/32/
+"DELETE /api/patients/32/ HTTP/1.1" 404 48
+Not Found: /api/patients/32/
+"DELETE /api/patients/32/ HTTP/1.1" 404 48
+Not Found: /api/patients/30/
+"DELETE /api/patients/30/ HTTP/1.1" 404 48
+Not Found: /api/patients/30/
+"DELETE /api/patients/30/ HTTP/1.1" 404 48
+Not Found: /api/patients/33/
+"DELETE /api/patients/33/ HTTP/1.1" 404 48
+Not Found: /api/patients/33/
+"DELETE /api/patients/33/ HTTP/1.1" 404 48
+Not Found: /
+"GET / HTTP/1.1" 404 2483
+Not Found: /api/patients/34/
+"DELETE /api/patients/34/ HTTP/1.1" 404 48
+Not Found: /api/patients/34/
+"DELETE /api/patients/34/ HTTP/1.1" 404 48
+Not Found: /api/patients/36/
+"DELETE /api/patients/36/ HTTP/1.1" 404 48
+Not Found: /api/patients/36/
+"DELETE /api/patients/36/ HTTP/1.1" 404 48
+Not Found: /api/patients/37/
+"DELETE /api/patients/37/ HTTP/1.1" 404 48
+Not Found: /api/patients/37/
+"DELETE /api/patients/37/ HTTP/1.1" 404 48
+Not Found: /api/patients/35/
+"DELETE /api/patients/35/ HTTP/1.1" 404 48
+Not Found: /api/patients/38/
+"DELETE /api/patients/38/ HTTP/1.1" 404 48
+Not Found: /api/patients/38/
+"DELETE /api/patients/38/ HTTP/1.1" 404 48
+Not Found: /api/patients/39/
+"DELETE /api/patients/39/ HTTP/1.1" 404 48
+Not Found: /api/patients/39/
+"DELETE /api/patients/39/ HTTP/1.1" 404 48
+Not Found: /api/patients/40/
+"DELETE /api/patients/40/ HTTP/1.1" 404 48
+Not Found: /api/patients/40/
+"DELETE /api/patients/40/ HTTP/1.1" 404 48
+Not Found: /api/patients/41/
+"DELETE /api/patients/41/ HTTP/1.1" 404 48
+Not Found: /api/patients/41/
+"DELETE /api/patients/41/ HTTP/1.1" 404 48
+Invalid HTTP_HOST header: '192.168.8.100:8000'. You may need to add '192.168.8.100' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.8.100:8000'. You may need to add '192.168.8.100' to ALLOWED_HOSTS.
+"POST /api/login/ HTTP/1.1" 400 76124
+Invalid HTTP_HOST header: '192.168.8.100:8000'. You may need to add '192.168.8.100' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.8.100:8000'. You may need to add '192.168.8.100' to ALLOWED_HOSTS.
+"POST /api/login/ HTTP/1.1" 400 76124
+Invalid HTTP_HOST header: '192.168.8.100:8000'. You may need to add '192.168.8.100' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.8.100:8000'. You may need to add '192.168.8.100' to ALLOWED_HOSTS.
+"POST /api/login/ HTTP/1.1" 400 76124
+Invalid HTTP_HOST header: '192.168.8.100:8000'. You may need to add '192.168.8.100' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.8.100:8000'. You may need to add '192.168.8.100' to ALLOWED_HOSTS.
+"POST /api/register/ HTTP/1.1" 400 76160
+Invalid HTTP_HOST header: '192.168.8.100:8000'. You may need to add '192.168.8.100' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.8.100:8000'. You may need to add '192.168.8.100' to ALLOWED_HOSTS.
+"POST /api/login/ HTTP/1.1" 400 76124
+Invalid HTTP_HOST header: '192.168.8.100:8000'. You may need to add '192.168.8.100' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.8.100:8000'. You may need to add '192.168.8.100' to ALLOWED_HOSTS.
+"POST /api/login/ HTTP/1.1" 400 76124
+Invalid HTTP_HOST header: '192.168.8.100:8000'. You may need to add '192.168.8.100' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.8.100:8000'. You may need to add '192.168.8.100' to ALLOWED_HOSTS.
+"POST /api/login/ HTTP/1.1" 400 76124
+Invalid HTTP_HOST header: '192.168.8.100:8000'. You may need to add '192.168.8.100' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.8.100:8000'. You may need to add '192.168.8.100' to ALLOWED_HOSTS.
+"POST /api/login/ HTTP/1.1" 400 76124
+Not Found: /
+"GET / HTTP/1.1" 404 2483
+Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 123, in post
+    refresh = RefreshToken.for_user(user)
+              ^^^^^^^^^^^^
+NameError: name 'RefreshToken' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_backend\api\views.py", line 134, in post
+    except serializers.ValidationError as e:
+           ^^^^^^^^^^^
+NameError: name 'serializers' is not defined. Did you mean: 'serializer'?
+"POST /api/register/ HTTP/1.1" 500 110132
+Not Found: /api/patients/
+"GET /api/patients/ HTTP/1.1" 404 5105
+Not Found: /api/patients/
+"GET /api/patients/ HTTP/1.1" 404 5105
+Not Found: /
+"GET / HTTP/1.1" 404 2483
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2534

@@ -214,12 +214,12 @@ class SyncAllDataView(APIView):
         return Response(serializer.data, status=status.HTTP_200_OK)    
     
 # 3. عرض لتفاصيل مريض معين (عرض، تحديث، حذف)
-class PatientDetailView(generics.RetrieveUpdateDestroyAPIView):
-    serializer_class = PatientSerializer
-    permission_classes = [permissions.IsAuthenticated,IsOwner]
+# class PatientDetailView(generics.RetrieveUpdateDestroyAPIView):
+#     serializer_class = PatientSerializer
+#     permission_classes = [permissions.IsAuthenticated,IsOwner]
     
-    def get_queryset(self):
-        return  Patient.objects.filter(doctor=self.request.user).prefetch_related('diagnoses')
+#     def get_queryset(self):
+#         return  Patient.objects.filter(doctor=self.request.user).prefetch_related('diagnoses')
 
     # class PatientDetailView(generics.RetrieveUpdateDestroyAPIView):
     #     serializer_class = PatientSerializer
@@ -227,6 +227,26 @@ class PatientDetailView(generics.RetrieveUpdateDestroyAPIView):
         
     #     def get_queryset(self):
     #         return Patient.objects.filter(doctor=self.request.user).prefetch_related('diagnoses')
+
+# 3. عرض لتفاصيل مريض معين (عرض، تحديث، حذف)
+class PatientDetailView(generics.RetrieveUpdateDestroyAPIView):
+    serializer_class = PatientSerializer
+    permission_classes = [permissions.IsAuthenticated,IsOwner]
+    
+    def get_queryset(self):
+        return  Patient.objects.filter(doctor=self.request.user).prefetch_related('diagnoses')
+    def perform_destroy(self, instance):
+        super().perform_destroy(instance)
+    # def perform_destroy(self, instance):
+    #     diagnoses = instance.diagnoses.all()
+    #     for diagnosis in diagnoses:
+    #         if diagnosis.iris_image:
+    #             try:
+    #                 diagnosis.iris_image.delete(save=False)
+    #             except ObjectDoesNotExist:
+    #                 pass
+    #     diagnoses.delete()
+    #     super().perform_destroy(instance)
     
 # العرض الرئيسي والمحدث
 class DiagnoseView(APIView):

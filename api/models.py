@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth.models import AbstractUser
 import uuid
 from django.utils import timezone
+from datetime import datetime
 
 # 1. نموذج المستخدم (User)
 # نوسع النموذج الافتراضي لإضافة حقول إذا احتجنا
@@ -34,14 +35,20 @@ class Patient(models.Model):
 # def get_diagnosis_image_path(instance, filename):
 #     return f'diagnoses/{instance.patient.id}/{filename}'
 # دالة لتحديد مسار حفظ الصورة
+# def get_diagnosis_image_path(instance, filename):
+#     # الحصول على السنة، الشهر واليوم من تاريخ التشخيص
+#     diagnosis_date = instance.diagnosis_date or instance.patient.diagnoses.first().diagnosis_date
+#     return f'diagnoses/{instance.patient.id}/{diagnosis_date.year}/{diagnosis_date.month:02d}/{diagnosis_date.day:02d}/{filename}'
+
+
 def get_diagnosis_image_path(instance, filename):
-    # الحصول على السنة، الشهر واليوم من تاريخ التشخيص
-    diagnosis_date = instance.diagnosis_date or instance.patient.diagnoses.first().diagnosis_date
+    diagnosis_date = instance.diagnosis_date or datetime.now()
     return f'diagnoses/{instance.patient.id}/{diagnosis_date.year}/{diagnosis_date.month:02d}/{diagnosis_date.day:02d}/{filename}'
+
 
 class Diagnosis(models.Model):
     patient = models.ForeignKey(Patient, related_name='diagnoses', on_delete=models.CASCADE)
-    # حقل الصورة، سيتم حفظ الصور في media/diagnoses/<patient_id>/
+    # media/diagnoses/<patient_id>/<year>/<month>/<day>/<filename>
     iris_image = models.ImageField(upload_to=get_diagnosis_image_path)
     results = models.CharField(max_length=50) # e.g., "مصاب", "غير مصاب"
     ratio = models.FloatField() # نسبة الثقة

@@ -11,10 +11,9 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
-
+import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
 AUTH_USER_MODEL = 'api.User'
 
 # Quick-start development settings - unsuitable for production
@@ -26,19 +25,23 @@ SECRET_KEY = "django-insecure-_gxc#ty-gf%ey_p%sibzqf4(5lyndqb=$8b^(+%$5^l!gxx)!5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# ALLOWED_HOSTS = ['192.168.8.100','localhost',"backend-render-lycs.onrender.com"]
+CORS_ALLOW_ALL_ORIGINS = DEBUG  # Only allow all origins in development
+CORS_ALLOW_CREDENTIALS = True
+
 ALLOWED_HOSTS = ['*']
-CORS_ALLOWED_ORIGINS = [
-    "http://192.168.8.100",
-    "http://192.168.8.146",  # استبدل بـ IP جهازك
-    "http://192.168.8.52",
-]
+# In production, specify allowed origins explicitly
+if not DEBUG:
+    CORS_ALLOWED_ORIGINS = [
+        "http://192.168.8.100",
+        "http://192.168.8.146",  # استبدل بـ IP جهازك
+        "http://192.168.8.52",
+    ]
 
 # 3. قم بتكوين CORS_ALLOWED_ORIGINS
 # في بيئة التطوير، يمكنك السماح للجميع، ولكن في الإنتاج، يجب أن تكون محددًا.
 # CORS_ALLOW_ALL_ORIGINS = True  # مناسب للتطوير السريع فقط
 
-# بدلاً من ذلك، يمكنك استخدام CORS_ALLOW_ALL_ORIGINS = True للتطوير
-# وتغييرها في بيئة الإنتاج
 # إعدادات البريد الإلكتروني لإرسال رمز التحقق
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
@@ -46,12 +49,7 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'bakeelaledrisy@gmail.com'  # ضع بريدك في Gmail هنا
 EMAIL_HOST_PASSWORD = 'fokk qchn shjf bbmi'  # استخدم App Password وليس كلمة المرور العادية
-# if DEBUG:
-#     CORS_ALLOW_ALL_ORIGINS = True
-# else:
-#     CORS_ALLOWED_ORIGINS = [
-#         "https://your-production-domain.com", # رابط الإنتاج
-#     ]
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -60,8 +58,8 @@ INSTALLED_APPS = [
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
-    'corsheaders',  # أضف هذه
     "django.contrib.staticfiles",
+    'corsheaders',  # أضف هذه
     'rest_framework',          # إضافة DRF
     'rest_framework_simplejwt', # إضافة Simple JWT
     'api',  
@@ -71,6 +69,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     'corsheaders.middleware.CorsMiddleware', # أضف هذه
     "django.middleware.common.CommonMiddleware",
@@ -89,6 +88,7 @@ TEMPLATES = [
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
+                "django.template.context_processors.debug",
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
@@ -103,13 +103,36 @@ WSGI_APPLICATION = "iris_backend.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
+# SQLite Database Configuration
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+        'OPTIONS': {
+            'timeout': 20,  # Increase timeout for better concurrency handling
+        },
     }
 }
 
+# Security settings for development
+if DEBUG:
+    # In development, you might want to enable SQL logging
+    LOGGING = {
+        'version': 1,
+        'disable_existing_loggers': False,
+        'handlers': {
+            'console': {
+                'level': 'DEBUG',
+                'class': 'logging.StreamHandler',
+            },
+        },
+        'loggers': {
+            'django.db.backends': {
+                'level': 'DEBUG',
+                'handlers': ['console'],
+            }
+        },
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
@@ -149,6 +172,10 @@ STATIC_URL = "static/"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
+
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+STATIC_ROOT=BASE_DIR/"assets"
+STATICFILES_STORAGE="whitenoise.storage.CompresseManifestStaticFilesStorage"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 

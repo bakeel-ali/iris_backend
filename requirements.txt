@@ -1,7 +1,6 @@
 Django==5.1.2
 python-dotenv==1.0.1
 gunicorn==21.2.0
-psycopg2-binary==2.9.9  # Only if you plan to use PostgreSQL later
 celery==5.3.6  # If you're using Celery
 redis==5.0.1  # If you're using Redis with Celery
 

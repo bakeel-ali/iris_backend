@@ -28,3 +28,10 @@ urlpatterns = [
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+
+# Command = PGPASSWORD=dPUkVG6qNaLsuTJZufAH3zcBIInLIesH psql -h dpg-d2vmuav5r7bs73ajt570-a.oregon-postgres.render.com -U root postirisdb
+# External = postgresql://root:dPUkVG6qNaLsuTJZufAH3zcBIInLIesH@dpg-d2vmuav5r7bs73ajt570-a.oregon-postgres.render.com/postirisdb
+# Internal = postgresql://root:dPUkVG6qNaLsuTJZufAH3zcBIInLIesH@dpg-d2vmuav5r7bs73ajt570-a/postirisdb
+# Password = dPUkVG6qNaLsuTJZufAH3zcBIInLIesH
