@@ -1420,3 +1420,6 @@ Not Found: /
 "GET / HTTP/1.1" 404 2483
 Not Found: /favicon.ico
 "GET /favicon.ico HTTP/1.1" 404 2534
+Login error: {'email': [ErrorDetail(string='Enter a valid email address.', code='invalid')]}
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 42

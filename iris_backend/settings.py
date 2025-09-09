@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 
 from pathlib import Path
 import os
+import dj_databse_url
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 AUTH_USER_MODEL = 'api.User'
@@ -23,7 +24,8 @@ AUTH_USER_MODEL = 'api.User'
 SECRET_KEY = "django-insecure-_gxc#ty-gf%ey_p%sibzqf4(5lyndqb=$8b^(+%$5^l!gxx)!5"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
+DEBUG = os.environ.get('DEBUG', 'True') == "True"
 
 ALLOWED_HOSTS = ['192.168.8.100','localhost',"iris-backend-0a9v.onrender.com"]
 CORS_ALLOW_ALL_ORIGINS = DEBUG  # Only allow all origins in development
@@ -102,6 +104,18 @@ WSGI_APPLICATION = "iris_backend.wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
+
+if not DEBUG:
+    DATABASES = {
+        'default': dj_databse_url.config(default=os.environ.get("DATABASE_URL"))
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
 
 # SQLite Database Configuration
 DATABASES = {
