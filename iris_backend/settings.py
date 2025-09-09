@@ -29,14 +29,14 @@ ALLOWED_HOSTS = ['192.168.8.100','localhost',"iris-backend-0a9v.onrender.com"]
 CORS_ALLOW_ALL_ORIGINS = DEBUG  # Only allow all origins in development
 CORS_ALLOW_CREDENTIALS = True
 
-ALLOWED_HOSTS = ['*']
-# In production, specify allowed origins explicitly
-if not DEBUG:
-    CORS_ALLOWED_ORIGINS = [
-        "http://192.168.8.100",
-        "http://192.168.8.146",  # استبدل بـ IP جهازك
-        "http://192.168.8.52",
-    ]
+# ALLOWED_HOSTS = ['*']
+# # In production, specify allowed origins explicitly
+# if not DEBUG:
+#     CORS_ALLOWED_ORIGINS = [
+#         "http://192.168.8.100",
+#         "http://192.168.8.146",  # استبدل بـ IP جهازك
+#         "http://192.168.8.52",
+#     ]
 
 # 3. قم بتكوين CORS_ALLOWED_ORIGINS
 # في بيئة التطوير، يمكنك السماح للجميع، ولكن في الإنتاج، يجب أن تكون محددًا.
