@@ -6,6 +6,7 @@ redis==5.0.1  # If you're using Redis with Celery
 
 asgiref==3.9.1
 coloredlogs==15.0.1
+dj-database-url==3.0.1
 django-cors-headers==4.7.0
 djangorestframework==3.16.1
 djangorestframework_simplejwt==5.5.1
