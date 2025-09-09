@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-_gxc#ty-gf%ey_p%sibzqf4(5lyndqb=$8b^(+%$5^l!gxx)!5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['192.168.8.100','localhost',"backend-render-lycs.onrender.com"]
+ALLOWED_HOSTS = ['192.168.8.100','localhost',"iris-backend-0a9v.onrender.com"]
 CORS_ALLOW_ALL_ORIGINS = DEBUG  # Only allow all origins in development
 CORS_ALLOW_CREDENTIALS = True
 
