@@ -67,15 +67,21 @@ class SendResetCodeView(APIView):
         code = str(random.randint(100000, 999999))
         expires = timezone.now() + timezone.timedelta(minutes=10)
         ResetCode.objects.create(email=email, code=code, expires_at=expires)
-        # إرسال البريد (يجب ضبط إعدادات البريد في settings.py)
-        send_mail(
-            'رمز إعادة تعيين كلمة المرور',
-            f'رمز التحقق الخاص بك هو: {code}',
-            settings.EMAIL_HOST_USER,
-            [email],
-            fail_silently=False,
-        )
-        return Response({'message': 'تم إرسال رمز التحقق إلى بريدك الإلكتروني.'}, status=status.HTTP_200_OK)
+
+        try:
+            send_mail(
+                'رمز إعادة تعيين كلمة المرور',
+                f'رمز التحقق الخاص بك هو: {code}',
+                settings.EMAIL_HOST_USER,
+                [email],
+                fail_silently=False,
+            )
+            return Response({'message': 'تم إرسال رمز التحقق إلى بريدك الإلكتروني.'}, status=status.HTTP_200_OK)
+        except Exception as e:
+            import logging
+            logger = logging.getLogger(__name__)
+            logger.error(f'خطأ أثناء إرسال البريد الإلكتروني: {str(e)}')
+            return Response({'error': 'حدث خطأ أثناء إرسال البريد الإلكتروني. يرجى المحاولة لاحقًا.'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 class RegisterView(generics.CreateAPIView):
     """

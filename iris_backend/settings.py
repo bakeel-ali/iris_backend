@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ['192.168.8.100','localhost',"iris-backend-0a9v.onrender.com"]
 CORS_ALLOW_ALL_ORIGINS = DEBUG  # Only allow all origins in development
 CORS_ALLOW_CREDENTIALS = True
 
-# ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*']
 # # In production, specify allowed origins explicitly
 # if not DEBUG:
 #     CORS_ALLOWED_ORIGINS = [
@@ -48,7 +48,8 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'bakeelaledrisy@gmail.com'  # ضع بريدك في Gmail هنا
-EMAIL_HOST_PASSWORD = 'fokk qchn shjf bbmi'  # استخدم App Password وليس كلمة المرور العادية
+EMAIL_HOST_PASSWORD = 'zrln smil gjii ocdb'  # استخدم App Password وليس كلمة المرور العادية
+# EMAIL_HOST_PASSWORD = 'fokk qchn shjf bbmi'  # استخدم App Password وليس كلمة المرور العادية
 
 # Application definition
 

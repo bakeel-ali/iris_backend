@@ -1423,3 +1423,680 @@ Not Found: /favicon.ico
 Login error: {'email': [ErrorDetail(string='Enter a valid email address.', code='invalid')]}
 Bad Request: /api/login/
 "POST /api/login/ HTTP/1.1" 400 42
+Not Found: /
+"GET / HTTP/1.1" 404 2483
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2534
+Not Found: /
+"GET / HTTP/1.1" 404 2483
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2534
+Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_Backend\api\views.py", line 123, in post
+    refresh = RefreshToken.for_user(user)
+              ^^^^^^^^^^^^
+NameError: name 'RefreshToken' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_Backend\api\views.py", line 134, in post
+    except serializers.ValidationError as e:
+           ^^^^^^^^^^^
+NameError: name 'serializers' is not defined. Did you mean: 'serializer'?
+"POST /api/register/ HTTP/1.1" 500 109862
+Internal Server Error: /api/send-reset-code/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_Backend\api\views.py", line 71, in post
+    send_mail(
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\__init__.py", line 92, in send_mail
+    return mail.send()
+           ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+                       ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 95, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-45f290d1512sm62850465e9.16 - gsmtp')
+"POST /api/send-reset-code/ HTTP/1.1" 500 135239
+Internal Server Error: /api/send-reset-code/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_Backend\api\views.py", line 71, in post
+    send_mail(
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\__init__.py", line 92, in send_mail
+    return mail.send()
+           ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+                       ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 95, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-45f24be2aafsm56793825e9.2 - gsmtp')
+"POST /api/send-reset-code/ HTTP/1.1" 500 25006
+Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_Backend\api\views.py", line 123, in post
+    refresh = RefreshToken.for_user(user)
+              ^^^^^^^^^^^^
+NameError: name 'RefreshToken' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_Backend\api\views.py", line 134, in post
+    except serializers.ValidationError as e:
+           ^^^^^^^^^^^
+NameError: name 'serializers' is not defined. Did you mean: 'serializer'?
+"POST /api/register/ HTTP/1.1" 500 110018
+Internal Server Error: /api/send-reset-code/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_Backend\api\views.py", line 71, in post
+    send_mail(
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\__init__.py", line 92, in send_mail
+    return mail.send()
+           ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+                       ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 95, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-45e017b4222sm151415655e9.20 - gsmtp')
+"POST /api/send-reset-code/ HTTP/1.1" 500 25020
+Internal Server Error: /api/send-reset-code/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_Backend\api\views.py", line 71, in post
+    send_mail(
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\__init__.py", line 92, in send_mail
+    return mail.send()
+           ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+                       ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 95, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-45e0372ae57sm146539545e9.8 - gsmtp')
+"POST /api/send-reset-code/ HTTP/1.1" 500 135258
+Internal Server Error: /api/send-reset-code/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_Backend\api\views.py", line 71, in post
+    send_mail(
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\__init__.py", line 92, in send_mail
+    return mail.send()
+           ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+                       ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 95, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3e7ff9f77c4sm8781526f8f.27 - gsmtp')
+"POST /api/send-reset-code/ HTTP/1.1" 500 135259
+Internal Server Error: /api/send-reset-code/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_Backend\api\views.py", line 71, in post
+    send_mail(
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\__init__.py", line 92, in send_mail
+    return mail.send()
+           ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+                       ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 95, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3ea103f90e4sm3166483f8f.53 - gsmtp')
+"POST /api/send-reset-code/ HTTP/1.1" 500 135259
+Internal Server Error: /api/send-reset-code/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_Backend\api\views.py", line 71, in post
+    send_mail(
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\__init__.py", line 92, in send_mail
+    return mail.send()
+           ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+                       ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 95, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3e760775880sm15206994f8f.2 - gsmtp')
+"POST /api/send-reset-code/ HTTP/1.1" 500 135258
+Internal Server Error: /api/send-reset-code/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_Backend\api\views.py", line 71, in post
+    send_mail(
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\__init__.py", line 92, in send_mail
+    return mail.send()
+           ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+                       ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 95, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-45e0156b0a8sm152210835e9.3 - gsmtp')
+"POST /api/send-reset-code/ HTTP/1.1" 500 135259
+Internal Server Error: /api/send-reset-code/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_Backend\api\views.py", line 71, in post
+    send_mail(
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\__init__.py", line 92, in send_mail
+    return mail.send()
+           ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+                       ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 95, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-45e0157619fsm153240015e9.7 - gsmtp')
+"POST /api/send-reset-code/ HTTP/1.1" 500 135258
+Internal Server Error: /api/send-reset-code/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_Backend\api\views.py", line 71, in post
+    send_mail(
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\__init__.py", line 92, in send_mail
+    return mail.send()
+           ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+                       ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 95, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-45e0155b415sm84191255e9.0 - gsmtp')
+"POST /api/send-reset-code/ HTTP/1.1" 500 135249
+Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_Backend\api\views.py", line 123, in post
+    refresh = RefreshToken.for_user(user)
+              ^^^^^^^^^^^^
+NameError: name 'RefreshToken' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_Backend\api\views.py", line 134, in post
+    except serializers.ValidationError as e:
+           ^^^^^^^^^^^
+NameError: name 'serializers' is not defined. Did you mean: 'serializer'?
+"POST /api/register/ HTTP/1.1" 500 110015
+Internal Server Error: /api/send-reset-code/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_Backend\api\views.py", line 71, in post
+    send_mail(
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\__init__.py", line 92, in send_mail
+    return mail.send()
+           ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+                       ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 95, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3e7d369ea3bsm9525895f8f.0 - gsmtp')
+"POST /api/send-reset-code/ HTTP/1.1" 500 135171
+Internal Server Error: /api/send-reset-code/
+Traceback (most recent call last):
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\iris_Backend\api\views.py", line 71, in post
+    send_mail(
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\__init__.py", line 92, in send_mail
+    return mail.send()
+           ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+                       ^^^^^^^^^^^
+  File "C:\Users\ComputerWorld\Desktop\IDP_Final_Project\iris_backend\irisvenv\Lib\site-packages\django\core\mail\backends\smtp.py", line 95, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\ComputerWorld\anaconda3\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3e7607cd0a7sm14919314f8f.39 - gsmtp')
+"POST /api/send-reset-code/ HTTP/1.1" 500 135189
+خطأ أثناء إرسال البريد الإلكتروني: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-45f29b2777csm58112255e9.13 - gsmtp')
+Internal Server Error: /api/send-reset-code/
+"POST /api/send-reset-code/ HTTP/1.1" 500 122
+خطأ أثناء إرسال البريد الإلكتروني: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-45e037d62besm147589865e9.21 - gsmtp')
+Internal Server Error: /api/send-reset-code/
+"POST /api/send-reset-code/ HTTP/1.1" 500 122
